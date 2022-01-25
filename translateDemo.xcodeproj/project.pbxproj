@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		642A9B74279D2639003F5C33 /* VocListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642A9B73279D2639003F5C33 /* VocListViewController.swift */; };
+		642A9B76279D2D90003F5C33 /* practiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642A9B75279D2D90003F5C33 /* practiceViewController.swift */; };
+		64908CB6279C515000F9EAA5 /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64908CB5279C515000F9EAA5 /* resultViewController.swift */; };
 		64972737279C28D50092C01C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64972736279C28D50092C01C /* AppDelegate.swift */; };
 		64972739279C28D50092C01C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64972738279C28D50092C01C /* SceneDelegate.swift */; };
 		6497273B279C28D50092C01C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6497273A279C28D50092C01C /* ViewController.swift */; };
 		6497273E279C28D50092C01C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6497273C279C28D50092C01C /* Main.storyboard */; };
 		64972740279C28D50092C01C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6497273F279C28D50092C01C /* Assets.xcassets */; };
 		64972743279C28D50092C01C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64972741279C28D50092C01C /* LaunchScreen.storyboard */; };
+		6497274D279C33320092C01C /* StoreVocViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6497274C279C33320092C01C /* StoreVocViewController.swift */; };
+		64DF83D8279E983F00946A55 /* chooseQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DF83D7279E983F00946A55 /* chooseQuestionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		642A9B73279D2639003F5C33 /* VocListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocListViewController.swift; sourceTree = "<group>"; };
+		642A9B75279D2D90003F5C33 /* practiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = practiceViewController.swift; sourceTree = "<group>"; };
+		64908CB5279C515000F9EAA5 /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
 		64972733279C28D50092C01C /* translateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = translateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64972736279C28D50092C01C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64972738279C28D50092C01C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,8 @@
 		6497273F279C28D50092C01C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64972742279C28D50092C01C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64972744279C28D50092C01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6497274C279C33320092C01C /* StoreVocViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreVocViewController.swift; sourceTree = "<group>"; };
+		64DF83D7279E983F00946A55 /* chooseQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chooseQuestionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +66,14 @@
 		64972735279C28D50092C01C /* translateDemo */ = {
 			isa = PBXGroup;
 			children = (
+				642A9B73279D2639003F5C33 /* VocListViewController.swift */,
+				64DF83D7279E983F00946A55 /* chooseQuestionViewController.swift */,
+				642A9B75279D2D90003F5C33 /* practiceViewController.swift */,
 				64972736279C28D50092C01C /* AppDelegate.swift */,
 				64972738279C28D50092C01C /* SceneDelegate.swift */,
 				6497273A279C28D50092C01C /* ViewController.swift */,
+				6497274C279C33320092C01C /* StoreVocViewController.swift */,
+				64908CB5279C515000F9EAA5 /* resultViewController.swift */,
 				6497273C279C28D50092C01C /* Main.storyboard */,
 				6497273F279C28D50092C01C /* Assets.xcassets */,
 				64972741279C28D50092C01C /* LaunchScreen.storyboard */,
@@ -139,8 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6497273B279C28D50092C01C /* ViewController.swift in Sources */,
+				64DF83D8279E983F00946A55 /* chooseQuestionViewController.swift in Sources */,
+				642A9B74279D2639003F5C33 /* VocListViewController.swift in Sources */,
 				64972737279C28D50092C01C /* AppDelegate.swift in Sources */,
+				6497274D279C33320092C01C /* StoreVocViewController.swift in Sources */,
 				64972739279C28D50092C01C /* SceneDelegate.swift in Sources */,
+				642A9B76279D2D90003F5C33 /* practiceViewController.swift in Sources */,
+				64908CB6279C515000F9EAA5 /* resultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
